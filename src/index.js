@@ -1,5 +1,5 @@
 module.exports =function getZerosCount(number, base) {
-   var ans=1e7;
+   var ans=1e8;
 for(var i=2;i<=base; i++)
 {
   if(base%i==0)
